@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Learn more: https://github.com/kennethreitz/setup.py
+# Original: https://github.com/kennethreitz/setup.py
 
 from setuptools import setup, find_packages
 
@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='pytools',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Python based tools library - primarily using pathling see: https://pathling.csiro.au/docs)',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Michael Osborne',
+    author_email='mjosborne1@gmail.com',
+    url='https://github.com/mjosborne1/pytools.git',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
